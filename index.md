@@ -1,8 +1,9 @@
 <html><center>
   
- <script> function goToPage(e) { let url="https://raw.githubusercontent.com/LouHeb/Cado/main/"+e.target.value+".jpg"; console.log(url); window.location = url; } </script>
+ <script> function goToPage(e) { let url="https://raw.githubusercontent.com/LouHeb/Cado/main/"+e.target.value+".jpg"; console.log(url); window.open(url, '_blank'); } </script>
 
-Type page number and press enter
+Tape ton mot à deviner puis appuie sur Entrée
+  
 <input onchange="goToPage(event)">
   
 </center></html>
